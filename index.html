@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./essets/main.css">
+    <link rel="stylesheet" href="./essets/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/af77d01d89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="nav">
+                <li class="nav-content"><i class="fas fa-chevron-left"></i></li>
+                <li style="opacity: 0.6;" class="nav-content">Now Playing <i class="fas fa-volume-up"></i></li>
+                <li class="nav-content"><i class="fas fa-music"></i></li>
+            </ul>
+        </header>
+        <main>
+            <div class="img-wrapper">
+                <img style="width: 100%;" src="./img/test.jpg" alt="Banner">
+            </div>
+            <div class="content">
+                <h1>Name Song
+                    <i style="font-size: 22px;" class="fas fa-heart"></i>
+                </h1>
+                <h4>Author name</h4>
+            </div>
+            <div class="control-time">
+                <div class="progress">
+                    <div class="progress-item"></div>
+                    <div class="progress-bar">
+                    </div>
+                </div>
+                <h5 style="float: right">1:00</h5>
+                <h5>0:00</h5>
+                <audio src="./songs/rickroll.mp3"></audio>
+            </div>
+        </main>
+        <footer>
+            <i class="small-icon fas fa-random"></i>
+            <i class="fas fa-backward"></i>
+            <i class="control-button fas fa-play-circle" style="font-size: 64px"></i>
+            <i class="fas fa-forward"></i>
+            <i class="small-icon fas fa-redo-alt"></i>
+        </footer>
+    </div>
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
