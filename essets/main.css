@@ -115,3 +115,7 @@ footer i {
 .fas {
     cursor: pointer;
 }
+
+.loved {
+    color: red;
+}
