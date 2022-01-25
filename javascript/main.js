@@ -21,22 +21,22 @@ app = {
     songs: [
         {
             id: 0,
-            src: '../songs/rickroll.mp3',
-            url_pic: '../img/rickroll.jpg',
+            src: './songs/rickroll.mp3',
+            url_pic: './img/rickroll.jpg',
             title: 'Never Gonna Give You Up',
             author: 'Rick Astley'
         },
         {
             id: 1,
-            src: '../songs/obsession.mp3',
-            url_pic: '../img/obsession.jpg',
+            src: './songs/obsession.mp3',
+            url_pic: './img/obsession.jpg',
             title: 'Obsession',
             author: 'Consoul Trainin'
         },
         {
             id: 2,
-            src: '../songs/posisi.mp3',
-            url_pic: '../img/posisi.png',
+            src: './songs/posisi.mp3',
+            url_pic: './img/posisi.png',
             title: 'Posisi Dior',
             author: 'DJ Taebang'
         },
